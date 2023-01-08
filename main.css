@@ -1,0 +1,48 @@
+.scoreboard {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 300px;
+    font-family: 'Quicksand, sans-serif';
+}
+
+.scoreboard__name,
+.scoreboard__score{
+    padding: 10px;
+    text-align: center;
+}
+.scoreboard__name {
+    font-weight: bold;
+    border-bottom: 1px solid#073831;
+}
+
+.scoreboard__name--one {
+    color: #009578;
+}
+
+.scoreboard__name--two {
+    color: #009578;
+}
+
+.scoreboard__score {
+    font-size: 2em;
+}
+
+.scoreboard__controls {
+    display: flex;
+}
+
+.scoreboard__control-button {
+    flex-grow: 1;
+    border: none;
+    background: #ddd;
+    cursor: pointer;
+    font-size: 1.em;
+}
+
+.scoreboard__control-button:hover {
+    background: #ddd;
+}
+
+.scoreboard__control-button:active {
+    background: #ddd;
+}
